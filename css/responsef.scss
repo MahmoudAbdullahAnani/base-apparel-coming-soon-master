@@ -1,0 +1,43 @@
+@media (max-width: 550px) {
+    #email {
+        width: 139px;
+        margin-left: 0;
+        padding: 16px;
+        font: {
+            size: 10px;
+            weight: 400;
+        }
+    }
+    #mm {
+        font: {
+            size: 20px;
+            weight: 400;
+        }
+    }
+    #myText-head {
+        margin-top: 144%;
+        margin-left: 0;
+        font-size: 34px;
+    }
+    #myText-centar {
+        margin-left: 0;
+    }
+    header > img {
+        top: 10px;
+        left: 0;
+        width: 177px;
+    }
+}
+@media (max-width: 1120px) {
+    .last-img {
+        filter: blur(4px);
+            /* width: initial; */
+            position: absolute;
+            bottom: -150vh;
+            right: 65vh; 
+            height: fit-content;
+            
+            transition-duration: .4s;
+    }
+}
+
